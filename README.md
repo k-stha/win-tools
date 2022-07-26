@@ -2,7 +2,15 @@
 
 Windows related tools and other stuffs
 
-## Here, the following scripts are available:
+## Table of Contents
+
+- [Description](#description)
+- [Using Microsoft Powershell Scripts](#using-microsoft-powershell-scripts)
+- [Contribution Guidelines](#contribution-guidelines)
+
+## Description
+
+Here, the following scripts are available:
 
 1. cURL Auto-Resume Downloads
 
@@ -21,7 +29,7 @@ For example:
 card.bat --tlsv1.2 --proto =https <url> <url> ...
 ```
 
-## Using Microsoft Powershell scripts
+## Using Microsoft Powershell Scripts
 
 In Microsoft PowerShell, you can either set the ExecutionPolicy for scripts, or
 do the following to bypass it to run the script:
@@ -32,3 +40,7 @@ powershell.exe -ExecutionPolicy Bypass -File card.ps1 <options> <url> <url> ...
 
 But, be careful while bypassing the security policies using this method for
 running the scripts you do not trust!
+
+## Contribution Guidelines
+
+See [CONTRIBUTING.md](CONTRIBUTING.md)
